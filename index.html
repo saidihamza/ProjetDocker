@@ -17,29 +17,82 @@
       background-color: #f4f4f4;
     }
 
-    /* Style du conteneur principal */
+    /* Conteneur principal */
     .container {
       text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 800px;
     }
 
+    /* Titre principal */
     h1 {
       color: #004680;
       font-weight: 300;
       margin-bottom: 20px;
+      font-size: 2rem;
     }
 
-    svg {
+    /* Style de l'image */
+    img {
       width: 250px;
       height: 250px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style pour les sous-titres */
+    h2 {
+      color: #555;
+      font-weight: 400;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Style pour le texte de description */
+    p {
+      color: #333;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    /* Style pour le bouton */
+    .cta-button {
+      background-color: #004680;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #003366;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to Azure Container - 25/12/2024 </h1>
-	  <h1>Developper par saidi Hamza</h1>
-		<img src="DockerContainers.png" alt="" srcset="">
-      <title>ContainerInstances_rgb_UI</title>
+    <h1>Welcome to Azure Container - 25/12/2024</h1>
+    <h2>Developed by Saidi Hamza</h2>
+    <img src="DockerContainers.png" alt="Docker Containers Illustration">
 
+    <p>Azure Container Instances provide an easy way to run Docker containers on the cloud. With this service, you can quickly and securely deploy containers without the need to manage the underlying infrastructure. Whether you're running a microservice architecture or an individual containerized application, Azure offers a powerful platform to scale and manage your container workloads.</p>
+
+    <p>Today, containers are revolutionizing how we build and deploy software, offering portability and scalability. With Azure's integration into the cloud ecosystem, developers and IT professionals have access to tools that streamline container orchestration, monitoring, and security.</p>
+
+    <p>As we look forward to the future of containerized applications, Azure continues to innovate with cutting-edge technologies to empower businesses of all sizes to embrace the cloud. Containers have never been easier to manage and deploy, thanks to the power of Azure.</p>
+
+    <a href="#" class="cta-button">Learn More About Azure Containers</a>
+  </div>
 </body>
 </html>
